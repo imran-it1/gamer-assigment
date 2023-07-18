@@ -48,7 +48,7 @@ body {
 .nav {
     /* border: 2px solid salmon; */
     width: 100%;
-    height: 10rem;
+    height: 13rem;
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -119,3 +119,79 @@ body {
 .tiktok_link {
     margin: 0rem 2.4rem 0rem 1rem;
 }
+
+/* Nav End */
+
+
+/* Banner */
+
+.banner {
+    /* border: 1px solid sandybrown; */
+    width: 100%;
+    /* height: calc(100vh - 10rem); */
+    background-image: url('../images/herobg.png');
+    background-repeat: no-repeat;
+}
+
+.banner_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner_content {
+    width: 50%;
+}
+
+.banner_img {
+    width: 50%;
+}
+
+.banner_heading_one {
+    color: var(--text-color-dark);
+    font-size: 5rem;
+    font-weight: 500;
+    margin-bottom: .4rem;
+}
+
+.banner_heading_two {
+    font-size: 10rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2.4rem;
+}
+
+.banner_text {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    color: var(--text-color-light);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.7rem;
+}
+
+/* Banner btn shared style */
+
+.banner_btn {
+    text-decoration: none;
+    border-radius: 5rem;
+    color: var(--text-color-white);
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 4rem;
+}
+
+.banner_btn_one {
+    background-color: var(--btn-color-primary);
+    margin-right: 2.4rem;
+}
+
+.banner_btn_two {
+    background-color: var(--btn-color-secondary);
+}
+
+/* Banner End */
