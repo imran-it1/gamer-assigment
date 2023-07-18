@@ -38,9 +38,28 @@ body {
 
 /* Shared Style */
 
+/* container */
 .container {
     width: 80vw;
     margin: 0 auto;
+}
+
+/* Btn*/
+
+.primary_btn {
+    text-decoration: none;
+    border-radius: 5rem;
+    color: var(--text-color-white);
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 4rem;
+}
+
+/* Section */
+
+.section {
+    padding-top: 12rem;
 }
 
 /* Nav */
@@ -140,11 +159,12 @@ body {
 }
 
 .banner_content {
-    width: 53%;
+    width: 50%;
 }
 
 .banner_img {
-    width: 47%;
+    width: 50%;
+    padding-left: 5rem;
 }
 
 .banner_heading_one {
@@ -171,18 +191,6 @@ body {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1.7rem;
-}
-
-/* Banner btn shared style */
-
-.primary_btn {
-    text-decoration: none;
-    border-radius: 5rem;
-    color: var(--text-color-white);
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 600;
-    padding: 2rem 4rem;
 }
 
 .banner_btn_one {
@@ -239,6 +247,7 @@ body {
     font-size: 1.8rem;
     font-weight: 400;
     margin-bottom: 3rem;
+    line-height: 3rem;
 }
 
 .gamer_btn {
@@ -256,4 +265,53 @@ body {
     color: var(--text-color-light);
     font-size: 3.2rem;
     font-weight: 700;
+}
+
+/* Online Game */
+
+
+.online_game_content {
+    width: 100%;
+    text-align: center;
+}
+
+.online_game_title {
+    margin-bottom: 1.5rem;
+    color: var(--text-color-dark);
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.online_game_title>span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+.online_game_p {
+    margin-bottom: 4.5rem;
+}
+
+/* grid */
+.online_game_cards_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-gap: 1rem;
+}
+
+
+.online_game_card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.online_game_card_p {
+    color: var(--text-color-light);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
 }
