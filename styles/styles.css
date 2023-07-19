@@ -38,13 +38,13 @@ body {
 
 /* Shared Style */
 
-/* container */
+/* container shared style*/
 .container {
     width: 80vw;
     margin: 0 auto;
 }
 
-/* Btn*/
+/* Btn shared*/
 
 .primary_btn {
     text-decoration: none;
@@ -56,16 +56,15 @@ body {
     padding: 2rem 4rem;
 }
 
-/* Section */
+/* Section shared style */
 
 .section {
     padding-top: 12rem;
 }
 
-/* Nav */
+/* Nav start*/
 
 .nav {
-    /* border: 2px solid salmon; */
     width: 100%;
     height: 13rem;
     background-color: #FFF;
@@ -143,12 +142,10 @@ body {
 /* Nav End */
 
 
-/* Banner */
+/* Banner Start*/
 
 .banner {
-    /* border: 1px solid sandybrown; */
     width: 100%;
-    /* height: calc(100vh - 10rem); */
     background-image: url('../images/herobg.png');
     background-repeat: no-repeat;
 }
@@ -206,13 +203,11 @@ body {
 /* Banner End */
 
 
-/* Gamer */
+/* Gamer Start*/
 
 .gamer_section {
-    /* border: 1px solid red; */
     width: 100%;
     background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-
 }
 
 .gamer_container {
@@ -268,9 +263,10 @@ body {
     font-weight: 700;
 }
 
-/* Online Game */
+/* Gamer End */
 
 
+/* Online Game Start */
 .online_game_content {
     width: 100%;
     text-align: center;
@@ -394,6 +390,8 @@ body {
 
 /* Online Game End */
 
+
+/* Play start */
 .play_container {
     display: flex;
     align-items: center;
@@ -444,7 +442,10 @@ body {
     margin: auto;
 }
 
+/* Play End */
 
+
+/* Another Play Start */
 .play_container_two {
     display: flex;
     flex-direction: row-reverse;
@@ -465,7 +466,10 @@ body {
     left: 80%;
 }
 
-/* career */
+/* Another Play End */
+
+
+/* Career Start*/
 .career {
     width: 100%;
     background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -536,6 +540,8 @@ body {
     text-align: right;
 }
 
+/* Career End */
+
 /* Game Category */
 
 .game_category {
@@ -550,16 +556,6 @@ body {
     font-size: 2rem;
     font-weight: 600;
 }
-
-
-/* .game_category_container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 1rem;
-    justify-items: center;
-    align-items: center;
-} */
 
 .game_category_container {
     display: flex;
@@ -590,8 +586,9 @@ body {
     transition: .3s;
 }
 
+/* Game Category End */
 
-/* Footer */
+/* Footer Start*/
 
 .footer {
     background-color: #0B0223;
@@ -669,3 +666,5 @@ body {
     font-size: 1.6rem;
     font-weight: 500;
 }
+
+/* Footer End */
