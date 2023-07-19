@@ -573,7 +573,7 @@ body {
     border-radius: 50px;
     background: #FFF;
     padding: .5rem 1.2rem;
-    transition: color 0.5s;
+    transition: color 0.2s;
 }
 
 .game_category_card:hover {
