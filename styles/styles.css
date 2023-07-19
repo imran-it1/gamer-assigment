@@ -320,6 +320,7 @@ body {
     position: relative;
 }
 
+
 .layer {
     background: transparent;
     width: 100%;
@@ -337,7 +338,7 @@ body {
 }
 
 .layer>p {
-    width: 100%;
+    width: 25%;
     font-weight: 500;
     color: #ffff;
     font-size: 1.625rem;
@@ -345,10 +346,9 @@ body {
     transform: translate(-50%, 0%);
     opacity: 0;
     transition: 0.5s;
-    top: 50%;
-    left: 88%;
+    top: 42%;
+    left: 50%;
 }
-
 
 .layer>img {
     width: 40px;
@@ -357,7 +357,7 @@ body {
     transform: translate(-50%, 0%);
     opacity: 0;
     transition: 0.5s;
-    top: 38%;
+    top: 50%;
     left: 50%;
 }
 
