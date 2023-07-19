@@ -38,13 +38,13 @@ body {
 
 /* Shared Style */
 
-/* container shared style*/
+/* 1. container shared style*/
 .container {
     width: 80vw;
     margin: 0 auto;
 }
 
-/* Btn shared*/
+/* 2. Btn shared*/
 
 .primary_btn {
     text-decoration: none;
@@ -56,7 +56,7 @@ body {
     padding: 2rem 4rem;
 }
 
-/* Section shared style */
+/* 3. Section shared style */
 
 .section {
     padding-top: 12rem;
@@ -118,6 +118,23 @@ body {
     list-style: none;
     margin: 0rem 1.6rem;
 }
+
+/* Hover Effect I Learn */
+.nav_list_one_item::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--btn-color-primary);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav_list_one_item:hover::after {
+    width: 100%;
+}
+
+
 
 .nav_list_two_item {
     list-style: none;
@@ -346,7 +363,7 @@ body {
     transform: translate(-50%, 0%);
     opacity: 0;
     transition: 0.5s;
-    top: 42%;
+    top: 43%;
     left: 50%;
 }
 
@@ -438,7 +455,7 @@ body {
 
 .play_content_title,
 .play_content_p {
-    width: 50%;
+    width: 80%;
     margin: auto;
 }
 
@@ -456,8 +473,8 @@ body {
 }
 
 .play_content_two {
-    width: 50%;
-    text-align: right;
+    width: 35%;
+    text-align: left;
 }
 
 .play_img_absolute_two {
@@ -635,6 +652,20 @@ body {
     font-weight: 600;
 }
 
+.site_link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--btn-color-primary);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.site_link:hover::after {
+    width: 100%;
+}
+
 .site_social_links {
     display: flex;
     flex-wrap: wrap;
@@ -653,6 +684,21 @@ body {
     flex-wrap: wrap;
     gap: 6rem;
 }
+
+.site_copyright_link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: var(--btn-color-primary);
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.site_copyright_link:hover::after {
+    width: 100%;
+}
+
 
 .site_copyright_link {
     text-decoration: none;

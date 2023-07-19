@@ -140,6 +140,14 @@
         width: 100%;
     }
 
+    .play_content_title {
+        margin-bottom: 2rem;
+    }
+
+    .play_content_p {
+        margin-bottom: 1rem;
+    }
+
     .play_img>img {
         width: 80%;
     }
