@@ -485,6 +485,10 @@ body {
     width: 50%;
 }
 
+.career_img img {
+    width: 100%;
+}
+
 .career_name_place_container {
     display: flex;
     justify-content: space-between;
